@@ -661,8 +661,6 @@ GameObject:
   - component: {fileID: 499413730663234311}
   - component: {fileID: 499413730663234310}
   - component: {fileID: 499413730663234305}
-  - component: {fileID: 499413730663234304}
-  - component: {fileID: 499413730663234314}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -751,7 +749,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499413730663234307}
-  m_Material: {fileID: 13400000, guid: be4c195267b59254ab8c9ac95d3e4291, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -773,35 +771,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &499413730663234304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499413730663234307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbd88357b02d94c4f86631f9d0a9d64d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 750
-  camera: {fileID: 0}
-  springen: 0
-  Sprungstaerke: 225
---- !u!114 &499413730663234314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499413730663234307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 942d07b8371330c478f0cfcfe636d70b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupSound: {fileID: 8300000, guid: f492e5ad98f2ada489c945e39bc918bf, type: 3}
 --- !u!1 &2847479683338375231
 GameObject:
   m_ObjectHideFlags: 0
@@ -861,7 +830,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 448cc8985f2be5a42a4d7354737343cd, type: 2}
+  - {fileID: 2100000, guid: 23159bcaa5700844c9f63125c66943f4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
